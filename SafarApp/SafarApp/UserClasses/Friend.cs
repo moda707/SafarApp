@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-using SafarCore.DbClasses;
-using SafarCore.GenFunctions;
+using SafarApp.DbClasses;
+using SafarApp.GenFunctions;
 
 namespace SafarApp.UserClasses
 {

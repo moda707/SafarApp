@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 using MongoDB.Bson;
-using SafarCore.GenFunctions;
+using SafarApp.GenFunctions;
 
 namespace SafarApp.UserClasses
 {
@@ -21,7 +21,7 @@ namespace SafarApp.UserClasses
         public static async Task<FuncResult> AddUser(Users user)
         {
             var pusher = new PusherFunc();
-            var t = await pusher.Push("myChannel", "myEvent", new {message = "hello"});
+            //var t = await pusher.Push("myChannel", "myEvent", new {message = "hello"});
 
 
             return FuncResult.Successful;

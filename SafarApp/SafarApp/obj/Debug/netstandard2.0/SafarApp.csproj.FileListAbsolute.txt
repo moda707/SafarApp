@@ -9,3 +9,7 @@ C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\SafarApp.AssemblyInfo.cs
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\SafarApp.dll
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\SafarApp.pdb
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs

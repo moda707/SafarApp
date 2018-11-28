@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using SafarCore.GenFunctions;
+using SafarApp.GenFunctions;
 
 namespace SafarApp.DbClasses
 {

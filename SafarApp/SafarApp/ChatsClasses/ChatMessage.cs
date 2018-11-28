@@ -80,8 +80,8 @@ namespace SafarApp.ChatsClasses
 
             //call a chanel in Pusher
             var pusher = new PusherFunc();
-            var t = await pusher.Push(chatMessageTrans.TripId, "NewChatMessage",
-                new ChatMessageShort(chatMessageTrans.FromId, chatMessageTrans.MessageText));
+            //var t = await pusher.Push(chatMessageTrans.TripId, "NewChatMessage",
+            //    new ChatMessageShort(chatMessageTrans.FromId, chatMessageTrans.MessageText));
 
 
             return FuncResult.Successful;
