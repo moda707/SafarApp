@@ -66,3 +66,7 @@ System.Runtime.Handles
 System.IO.FileSystem.Primitives
 System.Console
 System.Resources.ResourceManager
+Xamarin.Android.Support.CustomTabs
+Xamarin.Essentials
+Newtonsoft.Json
+PusherServer.Core

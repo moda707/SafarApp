@@ -102,7 +102,7 @@ namespace SafarApp.ChatsClasses
         {
             var otripId = ObjectId.Parse(tripId);
             var dbConnection = new DbConnection();
-            dbConnection.ConnectOpenReg();
+            dbConnection.Connect();
 
             var filter = new List<FieldFilter>()
             {

@@ -9,7 +9,8 @@ namespace SafarApp.DbClasses
         private const string UserName = "Safar_admin";
         private const string Password = "12345";
         private const string ConnectionName = "";
-        private const string ConnectionString = "mongodb://" + UserName + ":" + Password + "@127.0.0.1:27017/SafarDB";
+        //private const string ConnectionString = "mongodb://" + UserName + ":" + Password + "@localhost:27017";
+        private const string ConnectionString = "mongodb://localhost:27017";
         public static string GetConnectionString()
         {
             return ConnectionString;

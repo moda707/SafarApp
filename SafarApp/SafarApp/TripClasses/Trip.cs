@@ -79,7 +79,7 @@ namespace SafarApp.TripClasses
         {
             var otripId = ObjectId.Parse(tripId);
             var dbConnection = new DbConnection();
-            dbConnection.ConnectOpenReg();
+            dbConnection.Connect();
 
             var filter = new List<FieldFilter>()
             {
@@ -102,7 +102,7 @@ namespace SafarApp.TripClasses
             };
 
             var dbConnection = new DbConnection();
-            dbConnection.ConnectOpenReg();
+            dbConnection.Connect();
 
             return dbConnection.GetFilteredList<TripInDb>(CollectionNames.Trip, filter)
                 .Select(ConvertTripInDbtoTrip).ToList();

@@ -18,7 +18,7 @@ namespace SafarApp.DbClasses
         }
 
         /* Connect to the Database */
-        public FuncResult Connect(string dbname)
+        public FuncResult Connect(string dbname = "SafarDB")
         {
 
             var connectionString = DbConfig.GetConnectionString();
@@ -30,6 +30,7 @@ namespace SafarApp.DbClasses
                 try
                 {
                     _database = _client.GetDatabase(dbname);
+                    
                     return FuncResult.Successful;
                 }
                 catch (Exception e)
@@ -46,13 +47,7 @@ namespace SafarApp.DbClasses
                 return FuncResult.Unsuccessful;
             }
         }
-
-
-        public FuncResult ConnectOpenReg()
-        {
-            return Connect("OpenReg");
-        }
-
+        
         public List<T> GetFilteredList<T>(CollectionNames collectionname, List<FieldFilter> filterPairs)
         {
             try
@@ -213,7 +208,7 @@ namespace SafarApp.DbClasses
             {
                 if (keyList == null) //Just Add
                 {
-                    collection.InsertOneAsync(document);
+                    collection.InsertOne(document);
                     return FuncResult.Successful;
                 }
                 else //Check for existency
@@ -336,7 +331,7 @@ namespace SafarApp.DbClasses
 
 
                 var dbConnection = new DbConnection();
-                dbConnection.ConnectOpenReg();
+                dbConnection.Connect();
                 var collection = dbConnection.GetMongoCollection(collectionName);
 
                 UpdateDefinition<BsonDocument> updated = new BsonDocument();
@@ -665,7 +660,7 @@ namespace SafarApp.DbClasses
             try
             {
                 var dbConnection = new DbConnection();
-                dbConnection.ConnectOpenReg();
+                dbConnection.Connect();
 
                 var collection = dbConnection.GetMongoCollection(collectionName);
                 var document = odocument.ToBsonDocument();

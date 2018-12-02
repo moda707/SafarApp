@@ -44,7 +44,7 @@ namespace SafarApp.TripClasses
         public static List<ObjectId> GetAllTripIdsByUser(ObjectId ouserId)
         {
             var dbConnection = new DbConnection();
-            dbConnection.ConnectOpenReg();
+            dbConnection.Connect();
 
             var filter = new List<FieldFilter>()
             {

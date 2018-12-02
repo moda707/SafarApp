@@ -40,7 +40,7 @@ namespace SafarApp.TripClasses
         public static Location GetLastLocation(ObjectId userId)
         {
             var dbConnection = new DbConnection();
-            dbConnection.ConnectOpenReg();
+            dbConnection.Connect();
 
             var filter = new List<FieldFilter>()
             {
@@ -54,7 +54,7 @@ namespace SafarApp.TripClasses
         public static List<Location> GetLastUserLocationInTrip(ObjectId tripId, ObjectId userId, int count)
         {
             var dbConnection = new DbConnection();
-            dbConnection.ConnectOpenReg();
+            dbConnection.Connect();
 
             var filter = new List<FieldFilter>()
             {
@@ -70,7 +70,7 @@ namespace SafarApp.TripClasses
         public static List<Location> GetAllUsersLocationInTrip(ObjectId tripId, int count)
         {
             var dbConnection = new DbConnection();
-            dbConnection.ConnectOpenReg();
+            dbConnection.Connect();
 
             var filter = new List<FieldFilter>()
             {

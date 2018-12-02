@@ -28,7 +28,7 @@ namespace SafarApp.UserClasses
             var toFriendship = new FriendShip(fromUserId, UserClasses.FriendShipStatus.RequestReceived);
 
             var dbConnection = new DbConnection();
-            dbConnection.ConnectOpenReg();
+            dbConnection.Connect();
 
             //add fromFriendship to fromUser
             var filter = new List<FieldFilter>()
@@ -90,7 +90,7 @@ namespace SafarApp.UserClasses
         public static FuncResult AcceptRequest(ObjectId currentUserId, ObjectId senderUserId)
         {
             var dbConnection = new DbConnection();
-            dbConnection.ConnectOpenReg();
+            dbConnection.Connect();
 
             //update currentUser
             var filter = new List<FieldFilter>()

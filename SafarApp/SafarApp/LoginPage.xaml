@@ -3,10 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SafarApp.LoginPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Login Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackLayout Grid.Row="1">
+                <Label Text="Create an Account"></Label>
+                <Entry Placeholder="Email" x:Name="txtEmail"></Entry>
+                <Entry Placeholder="Password" x:Name="txtPassword" IsPassword="True"></Entry>
+            </StackLayout>
+            <Button Text="Sign in" Clicked="Login_Clicked" Grid.Row="2"></Button>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
