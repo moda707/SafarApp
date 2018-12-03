@@ -103,7 +103,3 @@ C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.Android\obj\Debug\81\andr
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\bin\Debug\netstandard2.0\SafarApp.dll
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.Android\bin\Debug\SafarApp.dll.mdb
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.Android\obj\Debug\81\linksrc\FormsViewGroup.dll.mdb
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.Android\obj\Debug\81\linksrc\SafarApp.dll.mdb
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

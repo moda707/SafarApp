@@ -1,1 +1,0 @@
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\SafarApp.UWP.csproj;x86

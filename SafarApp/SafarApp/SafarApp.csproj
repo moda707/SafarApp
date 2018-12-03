@@ -17,6 +17,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="SafarCore">
+      <HintPath>..\..\..\..\..\Google Drive\My Projects\Professional Works\Safar\Safar-Core\SafarSDK\bin\Debug\netstandard2.0\SafarCore.dll</HintPath>
+    </Reference>
+    <Reference Include="SafarSDK">
+      <HintPath>..\..\..\SafarCore\SafarSDK\bin\Debug\netstandard2.0\SafarSDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="ChatPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
