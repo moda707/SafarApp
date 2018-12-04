@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using PusherServer;
-using SafarApp.UserClasses;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using SafarSDK;
@@ -21,9 +20,13 @@ namespace SafarApp
 
 	    private async void Login_Clicked(object sender, EventArgs e)
 	    {
-	        
-           
-	        
+	        var u = await UsersManager.GetUserByEmailPass(txtEmail.Text, txtPassword.Text);
+
+	        if (u != null)
+	        {
+	            await Application.Current.MainPage.DisplayAlert("Succesfully loged in", u.DisplayName + " Logged in", "Yes");
+	        }
+
 	    }
 	}
 }

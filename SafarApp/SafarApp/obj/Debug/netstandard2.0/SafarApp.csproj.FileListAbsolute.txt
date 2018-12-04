@@ -13,9 +13,4 @@ C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\ChatPage.xaml.g.cs
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\bin\Debug\netstandard2.0\SafarCore.dll
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\bin\Debug\netstandard2.0\SafarSDK.dll
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\bin\Debug\netstandard2.0\SafarCore.pdb
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\bin\Debug\netstandard2.0\SafarSDK.pdb
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\SafarApp.csproj.CopyComplete

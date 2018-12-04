@@ -302,3 +302,16 @@ C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\obj\x86\Debug\qualifi
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\bin\x86\Debug\Newtonsoft.Json.pdb
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\bin\x86\Debug\PusherServer.Core.dll
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\bin\x86\Debug\SafarCore.dll
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\bin\x86\Debug\SafarSDK.dll
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\bin\x86\Debug\System.Net.Http.Formatting.dll
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\bin\x86\Debug\Xamarin.Essentials.dll
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\bin\x86\Debug\Xamarin.Essentials.pdb
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\obj\x86\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.CommonWebApiResources.resw
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\obj\x86\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.Resources.resw
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp.UWP\obj\x86\Debug\Xamarin.Essentials.pri.xml
