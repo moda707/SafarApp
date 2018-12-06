@@ -1,7 +1,6 @@
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\bin\Debug\netstandard2.0\SafarApp.deps.json
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\bin\Debug\netstandard2.0\SafarApp.dll
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\bin\Debug\netstandard2.0\SafarApp.pdb
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\SafarApp.csprojAssemblyReference.cache
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\SafarApp.csproj.CoreCompileInputs.cache
@@ -14,3 +13,7 @@ C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\ChatPage.xaml.g.cs
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\SafarApp.csprojAssemblyReference.cache
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\ExplorePage.xaml.g.cs
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\TabbedPage1.xaml.g.cs

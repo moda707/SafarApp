@@ -12,26 +12,29 @@
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.7.2" />
     <PackageReference Include="PusherServer" Version="4.1.0" />
-    <PackageReference Include="SafarCore" Version="1.0.0" />
-    <PackageReference Include="SafarSDK" Version="1.0.0" />
+    <PackageReference Include="SafarCore" Version="1.0.1" />
+    <PackageReference Include="SafarSDK" Version="1.0.7" />
     <PackageReference Include="Xamarin.Essentials" Version="0.11.0-preview" />
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="SafarCore">
-      <HintPath>..\..\..\..\..\Google Drive\My Projects\Professional Works\Safar\Safar-Core\SafarSDK\bin\Debug\netstandard2.0\SafarCore.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="ChatPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="ExplorePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="ProfilePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="RegisterPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TabbedPage1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="WelcomePage.xaml">

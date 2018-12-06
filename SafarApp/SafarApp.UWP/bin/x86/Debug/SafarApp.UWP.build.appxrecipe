@@ -538,20 +538,11 @@
     <AppxPackagedFile Include="C:\Users\mohda\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\lib\uap10.0.15138\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mohda\.nuget\packages\safarcore\1.0.0\lib\netstandard2.0\SafarCore.dll">
+    <AppxPackagedFile Include="C:\Users\mohda\.nuget\packages\safarcore\1.0.1\lib\netstandard1.5\SafarCore.dll">
       <PackagePath>SafarCore.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mohda\.nuget\packages\safarsdk\1.0.0\lib\netstandard2.0\SafarSDK.dll">
+    <AppxPackagedFile Include="C:\Users\mohda\.nuget\packages\safarsdk\1.0.7\lib\netstandard2.0\SafarSDK.dll">
       <PackagePath>SafarSDK.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mohda\.nuget\packages\system.net.http.formatting.extension\5.2.3\lib\System.Net.Http.Extensions.dll">
-      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mohda\.nuget\packages\system.net.http.formatting.extension\5.2.3\lib\System.Net.Http.Formatting.dll">
-      <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mohda\.nuget\packages\system.net.http.formatting.extension\5.2.3\lib\System.Net.Http.Primitives.dll">
-      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mohda\.nuget\packages\xamarin.essentials\0.11.0-preview\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
