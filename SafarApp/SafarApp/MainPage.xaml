@@ -9,4 +9,9 @@
             <local:ExplorePage />
         </x:Arguments>
     </NavigationPage>
+    <NavigationPage Title="Chat">
+        <x:Arguments>
+            <local:ChatPage />
+        </x:Arguments>
+    </NavigationPage>
 </TabbedPage>

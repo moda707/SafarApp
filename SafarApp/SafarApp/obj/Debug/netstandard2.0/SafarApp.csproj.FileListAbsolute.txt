@@ -12,8 +12,11 @@ C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\ChatPage.xaml.g.cs
-C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\SafarApp.csprojAssemblyReference.cache
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\ExplorePage.xaml.g.cs
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
 C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\TabbedPage1.xaml.g.cs
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\bin\Debug\netstandard2.0\SafarSDK.dll
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\bin\Debug\netstandard2.0\SafarSDK.pdb
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\SafarApp.csproj.CopyComplete
+C:\Users\mohda\source\repos\SafarApp\SafarApp\SafarApp\obj\Debug\netstandard2.0\XamlC.stamp

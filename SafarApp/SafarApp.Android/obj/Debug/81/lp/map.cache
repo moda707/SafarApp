@@ -1,3 +1,5 @@
+Acr.UserDialogs
+AndHUD
 DnsClient
 FormsViewGroup
 MongoDB.Bson
@@ -6,10 +8,12 @@ MongoDB.Driver
 Newtonsoft.Json
 PusherServer.Core
 SafarApp
-SafarCore
+SafarObjects
 SafarSDK
 System.Buffers
+System.Collections
 System.Runtime
+System.Threading.Tasks
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
 Xamarin.Android.Arch.Lifecycle.Runtime
@@ -38,8 +42,6 @@ Xamarin.Forms.Xaml
 netstandard
 System.Diagnostics.Debug
 System.Net.Primitives
-System.Threading.Tasks
-System.Collections
 System.Net.NameResolution
 System.Collections.Concurrent
 System.Runtime.Extensions

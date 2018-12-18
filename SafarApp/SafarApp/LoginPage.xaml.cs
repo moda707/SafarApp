@@ -7,33 +7,38 @@ using PusherServer;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using SafarSDK;
+using Xamarin.Essentials;
 
 namespace SafarApp
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LoginPage : ContentPage
-	{
-		public LoginPage ()
-		{
-			InitializeComponent ();
-		}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class LoginPage : ContentPage
+    {
+        public LoginPage()
+        {
+            InitializeComponent();
+        }
 
-	    private async void Login_Clicked(object sender, EventArgs e)
-	    {
-	        var progressbar = new ProgressBar()
-	        {
-                Progress = 0.2
-	        };
-            
+        private async void Login_Clicked(object sender, EventArgs e)
+        {
             var u = await UsersManager.GetUserByEmailPass(txtEmail.Text, txtPassword.Text);
-	        await progressbar.ProgressTo(.8, 250, Easing.Linear);
 
-            if (u != null)
-            {
-                var mainPage = new MainPage(u);
-                await Navigation.PushAsync(mainPage);
-            }
+            if (u == null) return;
 
-	    }
-	}
+            Preferences.Set("IsLoggedIn", bool.TrueString);
+            Preferences.Set("UserId", u.UserId);
+
+            var mainPage = new MainPage(u);
+            await Navigation.PushAsync(mainPage);
+        }
+
+        private async void Logout_Clicked(object sender, EventArgs e)
+        {
+            Preferences.Set("IsLoggedIn", bool.FalseString);
+            Preferences.Remove("UserId");
+
+            var wellcomePage = new WelcomePage();
+            await Navigation.PushAsync(wellcomePage);
+        }
+    }
 }

@@ -1,4 +1,6 @@
 ﻿using System;
+using SafarSDK;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,8 +12,21 @@ namespace SafarApp
         public App()
         {
             InitializeComponent();
+            
+            var isLoggedIn = Preferences.Get("IsLoggedIn", bool.FalseString);
 
-            MainPage = new WelcomePage();
+            if (isLoggedIn == bool.TrueString)
+            {
+                var userId = Preferences.Get("UserId", "");
+
+                MainPage = new MainPage(userId);
+            }
+            else
+            {
+                MainPage = new WelcomePage();
+            }
+
+            
         }
 
         protected override void OnStart()

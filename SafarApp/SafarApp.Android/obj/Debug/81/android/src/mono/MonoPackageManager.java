@@ -107,6 +107,8 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "SafarApp.Android.dll" comes first in this list. */
 		"SafarApp.Android.dll",
+		"Acr.UserDialogs.dll",
+		"AndHUD.dll",
 		"DnsClient.dll",
 		"FormsViewGroup.dll",
 		"MongoDB.Bson.dll",
@@ -115,7 +117,7 @@ class MonoPackageManager_Resources {
 		"Newtonsoft.Json.dll",
 		"PusherServer.Core.dll",
 		"SafarApp.dll",
-		"SafarCore.dll",
+		"SafarObjects.dll",
 		"SafarSDK.dll",
 		"System.Buffers.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
