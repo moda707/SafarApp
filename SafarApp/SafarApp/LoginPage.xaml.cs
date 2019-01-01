@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PusherServer;
+using SafarObjects.UserClasses;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using SafarSDK;
@@ -24,9 +24,11 @@ namespace SafarApp
             var u = await UsersManager.GetUserByEmailPass(txtEmail.Text, txtPassword.Text);
 
             if (u == null) return;
-
+            var uu = new Users();
+            
             Preferences.Set("IsLoggedIn", bool.TrueString);
             Preferences.Set("UserId", u.UserId);
+            Preferences.Set("TokenId", u.token);
 
             var mainPage = new MainPage(u);
             await Navigation.PushAsync(mainPage);
